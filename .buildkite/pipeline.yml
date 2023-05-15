@@ -2,4 +2,4 @@ steps:
   - label: "Script and artifacts"
     command:
       - "script.sh"
-    artifact_paths: "target/**/*"
+    artifact_paths: "target/index-inline.html"
