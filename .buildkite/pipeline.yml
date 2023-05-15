@@ -1,3 +1,6 @@
 steps:
-  - label: "Hello"
-    command: "script.sh"
+  - label: "Script and artifacts"
+    command:
+      - "script.sh"
+    artifact_paths:
+      - "target/**/*"
